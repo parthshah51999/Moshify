@@ -242,3 +242,41 @@ a {
     font-size: 1.5rem;
   }
 }
+
+/* ---------- Input ---------- */
+
+.input {
+  border: 1px solid #ccc;
+  padding: 1.5rem 3rem;
+  border-radius: 30px;
+  color: var(--color-headings);
+  outline: 0;
+  font-size: 2rem;
+}
+
+::placeholder {
+  color: #cdcbd7;
+}
+
+@media screen and (min-width: 1024px) {
+  .input {
+    font-size: 1.5rem;
+  }
+}
+
+/* ---------- Input Group ---------- */
+
+.input-group {
+  border: 1px solid #ccc;
+  border-radius: 30px;
+  display: flex;
+}
+
+.input-group .input {
+  border: none;
+  flex-grow: 1;
+}
+
+.input-group .btn {
+  margin: 4px;
+}
